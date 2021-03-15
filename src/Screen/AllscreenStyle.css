@@ -1,0 +1,300 @@
+.MainHomeWraper{
+   height: 100vh;
+}
+.backGroundImage{
+    position: absolute;
+    /* top: 100px; */
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.firstText{
+font-size: 25px;
+  background: transparent;
+  position: absolute;
+  top: 100px;
+  height: 30%;
+  width: 15%;
+  margin-left: 1.5%;
+  font-weight: 700;
+  color: #fff;
+}
+.firstText div{
+    margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    display: flex;
+    color: #12c3e3;
+}
+.firstText p{
+        margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    display: flex;
+    color: #fff;
+    margin-left: 10px;
+}
+.secoundtText{
+ font-size: 25px;
+  background: transparent;
+  position: absolute;
+  top: 100px;
+  height: 40%;
+  width: 13%;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 1.5%;
+  background-color: transparent;
+}
+.secoundtText p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 78px;
+    margin-left: 10px;
+    color: #fff;
+}
+.secoundtText div{
+    margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    display: flex;
+    color: #12c3e3;
+}
+.therdText{
+      font-size: 70px;
+  background: transparent;
+  text-align: end;
+  position: absolute;
+  top: 100px;
+  height: 30%;
+  width: 15%;
+  margin-left: 1.5%;
+  font-weight: 700;
+  color: #fff;
+}
+.RightIconBox{
+    position: fixed;
+    right: 0;
+    width: 13%;
+    height: 180px;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.MediaIcons:hover{
+         width: 40%;
+    height: 35px;
+    background-color: #E43315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    transition: 2s;
+}
+.MediaIcons1:hover{
+         width: 60%;
+    height: 45px;
+    background-color: #E43315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    transition: 2s;
+}
+
+.MediaIcons .text{
+    font-size: 15px;
+}
+.MediaIcons{
+    width: 30%;
+    height: 35px;
+    background-color: #E43315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+}
+.MediaIcons1{
+    width: 30%;
+    height: 35px;
+    background-color: #E43315;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    overflow: hidden;
+    padding-left: 10px;
+
+}
+.text{
+   font-size: 15px;
+   margin-right: 20px;
+}
+.homefooter{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -15px;
+}
+.centerfooterdiv{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+        padding: 15px;
+
+}
+/* dropdwon */
+.dropdwon{
+    width: 15%;
+    height: 100%;
+    border-left: 2px solid rgb(14, 12, 12);
+}
+.dropdwon select{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+        border-radius: 5px;
+        border: none;
+
+}
+select:focus{
+    outline: none; 
+}
+.btn{
+    width: 10%;
+    font-size: 15px;
+    border-radius: 5px;
+    border:none;
+    font-weight: 600;
+
+}
+input:focus{
+    outline: none;
+}
+/* About Us */
+.AboutUsMainWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #EAEAEA;
+}
+.TextBoxAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    /* padding-top: 8.7em; */
+    position: relative;
+}
+.span{
+    position: absolute;
+    left: 20%;
+    top: -0.20em;
+    font-size: 19em;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.07;
+    margin: 0 !important;
+}
+.TextWlcome{
+    font-size: 4.714em;
+    color:'#1e1e1e';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 105%;
+}
+.TextBoxAbout p{
+    font-size: 1.20em;
+    line-height: 1.4em;
+    color: #1e1e1e;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+}
+.CradBoxAbout{
+     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+     height: 100vh;
+  align-items: flex-start;
+}
+.card{
+    width: 40%;
+    height: 180px;
+    background-color: black;
+    /* margin-top: -100px; */
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-left: 50px;
+}
+.TitleBox{
+display: flex;
+flex-direction: column;
+}
+.TitleBox .discription{
+    margin:0px;
+    word-spacing: -1px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: gray;
+}
+.TitleBox .title{
+    margin:0px;
+  font-size: 30px;
+  color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      
+
+}
+.TitleBox .title1{
+    margin:0px;
+    font-size: 18px;
+    color: orangered;
+    font-weight: 200;
+    /* font-family:  ; */
+}
+.card img{
+ width: 50%;
+}
